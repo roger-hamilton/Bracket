@@ -1,0 +1,18 @@
+parser: babel-eslint
+extends: airbnb
+installedESLint: true
+env:
+  browser: true
+  node: true
+globals:
+  React: true
+plugins:
+  - react
+  - jsx-a11y
+  - import
+rules:
+  react/jsx-filename-extension: off
+  react/require-extension: off
+  linebreak-style:
+    - error
+    - windows

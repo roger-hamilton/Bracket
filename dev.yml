@@ -1,0 +1,5 @@
+name: dev
+script: dev_server.js
+watch:
+  - dev_server.js
+  - webpack.dev.js
